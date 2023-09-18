@@ -13,6 +13,7 @@ module.exports = async function (params, context, logger) {
 	// 日志功能
 	logger.info(`${new Date()} 函数开始执行`);
 
+  logger.info("测试")
 
 	
 	// 在这里补充业务代码
